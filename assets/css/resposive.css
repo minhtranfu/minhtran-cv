@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) {
+    .section-2-cols {
+        flex-direction: row;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .collapse.navbar-collapse {
+        display: block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        padding: 15px;
+    }
+}
