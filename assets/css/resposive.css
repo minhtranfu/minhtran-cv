@@ -1,3 +1,26 @@
+@media only screen and (max-width: 767px) {
+    #content {
+        margin-top: 0;
+    }
+    #content ul.list-inline {
+        margin-left: 0;
+    }
+    .list-inline li {
+        width: 100%;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .cv-section-title h3,
+    .cv-section-title h4 {
+        text-align: left;
+    }
+    .cv-section-title h3:after {
+        right: unset;
+        left: 0;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .section-2-cols {
         flex-direction: row;
